@@ -115,6 +115,7 @@ button {
     color: #ffffff;
     font-size: 10px;
     outline: none;
+    cursor: pointer;
 }
 
 .selected {
@@ -128,3 +129,8 @@ button {
     border: 1px solid #cfe4ec;
     background-color: #ebf4f7;
 }
+
+a {
+    text-decoration: none;
+    
+} 
