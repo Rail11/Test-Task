@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bebas.css">
+    <title>Test Task</title>
+</head>
+<body>
+
+    <div class="wrap">
+
+        <div class="plans-blocks">
+
+            <div class="plans-block plans-block__active">
+                
+                <label for="radio-1">
+                    <input id="radio-1" type="radio" name="radio" value="13" checked>
+                    <span class="radio"></span>
+                    <span class="plans-block__border"></span>
+                LICENSE PLAN #1<span class="plans-block__span">$13 per license</span></label>
+            </div>
+
+            <div class="plans-block">
+                
+                <label for="radio-2">
+                    <input id="radio-2" type="radio" name="radio" value="22">
+                    <span class="radio"></span>
+                    <span class="plans-block__border"></span>
+                LICENSE PLAN #2<span class="plans-block__span">$22 per license</span></label>
+            </div>
+            
+            <div class="plans-block">
+                
+                <label for="radio-3">
+                    <input id="radio-3" type="radio" name="radio" value="34">
+                    <span class="radio"></span>
+                    <span class="plans-block__border"></span>
+                LICENSE PLAN #3<span class="plans-block__span">$34 per license</span></label>
+            </div>
+
+        </div>
+        <hr>
+        
+        <div class="select-block">
+            <div class="select-block__title">Number of licenses: </div>
+            <select name="Number-of-licenses" id="select">
+                <option id="first-option" value="10">10</option>
+            </select>
+        </div>
+        <hr>
+    
+        <div class="total-title">TOTAL: <span class="total-price">$340<sup>us</sup></span></div>
+
+        <button>BUY NOW</button>
+
+        <div class="selected">Selected plan: #3</div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
